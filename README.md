@@ -1,10 +1,9 @@
-Implementación del condigo para el ejericio 2 de la tarea 6 de la materia CI5651 Diseño de Algoritmos I
+# Tree problem
 
-Sea A = (N, C) un árbol (notemos que |C| = |N| − 1) y un predicado
-p : C → {true, f alse}. Queremos responder consultas que pueden tener una de dos formas:
-• forall(x, y), para x, y ∈ N, que diga si evaluar p para todas las conexiones entre entre
-los nodos x e y resulta en true.
-• exists(x, y), para x, y ∈ N, que diga si evaluar p para alguna de las conexiones entre
-entre los nodos x e y resulta en true.
-Diseñe un algoritmo que pueda responder Q consultas de cualquiera de estas formas en
-tiempo O(|N| + Q log |N|), usando memoria adicional O(|N|)
+## Proble:
+
+Let $`A = (N, C)`$ be a tree (note that $`|C| = |N| − 1`$) and a predicate $`p : C → {true, f alse}`$. We want to answer questions that can take one of two forms:
+- $`forall(x, y), for x, y ∈ N`$, that says whether to evaluate $`p`$ for all connections between nodes $`x`$ and $`y`$ results in true.
+- $`exists(x, y), for x, y ∈ N`$, that tells whether evaluating $`p`$ for any of the connections between nodes $`x`$ and $`y`$ results in true.
+  
+Design an algorithm that can answer Q queries in any of these ways in time $`O(|N| + Q log |N|)`$, using additional memory $`O(|N|)`$
